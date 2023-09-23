@@ -22,6 +22,8 @@ int main() {
     cout << i + 1 << ": " << *figure << endl;
     cout << "Coordinates at t = " << t << endl;
     cout << (*figure).GetCoordinates(t) << endl;
+    cout << "Derivateive at t = " << t << endl;
+    cout << (*figure).GetDerivative(t) << endl;
     cout << endl;
   }
 
